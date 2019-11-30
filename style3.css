@@ -1,0 +1,24 @@
+button{
+  width:200px;
+  height:50px;
+}
+
+button .msg-follow{
+  display:none;
+}
+button .msg-unfollow{
+  display: none;
+}
+
+button .msg-follow{
+  display: inline;
+}
+
+button.unfollow .msg-follow{
+  display: none;
+}
+
+button.unfollow .msg-unfollow{
+  display: inline;
+}
+

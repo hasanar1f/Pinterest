@@ -1,0 +1,60 @@
+div.logo img {
+
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+div.logo h1 {
+  position: relative;
+  top: 30px;
+  left: 0px;
+    color: red;
+}
+
+html {
+  background: url("html_img/home_bg.jpg") no-repeat center center fixed;
+  background-size: 57%;
+  height: 100%;
+background-image-opacity: 0.6;
+  overflow: hidden;
+}
+
+body {
+  background:rgba(255,255,255,0.34); /* applies a 50% transparent white background */
+}
+
+button {
+  background-color:darkred;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+}
+
+button:hover {
+  background-color: green;
+}
+
+button.button2 {
+  background-color: darkred;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}
+
+button.button2:hover {
+  background-color: green;
+}
+
